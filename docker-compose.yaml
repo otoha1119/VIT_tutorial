@@ -12,7 +12,7 @@ services:
       - ../workspace:/workspace
     working_dir: /workspace
     command: bash -c "jupyter notebook --allow-root"
-    runtime: nvidia  # ← ここを追加！
+    # deployセクションはGPU用の設定のため、GPUを使用しない場合はコメントアウト
     # deploy:  # Swarm用。composeでは無視されるためコメントアウトまたは削除
     #   resources:
     #     reservations:
