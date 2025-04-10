@@ -3,6 +3,7 @@ version: '3.8' # 2021.04現在
 services:
   main:
     build: .
+    platform: linux/amd64  # プラットフォームを指定
     shm_size: '2gb'
     container_name: 'BigGANomaly'
     ports:
