@@ -1,3 +1,7 @@
+# メモ
+Vitの基礎を学ぶために以下のチュートリアルを実施した．
+
+
 # Vision Transformer 入門（#vit_book)
 
 ## 概要
